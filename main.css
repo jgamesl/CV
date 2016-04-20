@@ -1,0 +1,114 @@
+
+.uni {
+	background-color:#3A2C44;
+	text-align:center;
+	padding:10px;
+}
+
+.uni img{
+	border-radius: 100%;
+
+}
+
+
+.navbar{	
+	background-color:#201e1e;
+	text-align: right;
+	margin:none;
+}
+
+.navbar li{
+	font-color:red;
+	font-size: 30px;
+}
+
+.navbar .pull-right li{
+	display:inline-block;
+	
+}
+.navbar .pull-left li{
+	
+	display:inline;
+	
+}
+
+.jumbotron{
+
+	text-align: center;
+	margin: none;
+	margin-bottom:0;
+}
+
+.jumbotron h2{
+	font-size:20px;
+}
+
+.jumbotron img{
+	height:200px;
+	width: 200px;
+	border-radius: 100%;
+}
+
+.jumbotron .container{
+	padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+.acerca {
+	text-align: center;
+	margin:none;
+	padding-bottom: 182px;
+	padding-top:70px;
+
+}
+.acerca p{
+	font-size: 20px;
+}
+
+.pull-left a{
+	color:blue;
+}
+
+.pull-right a{
+	color:blue;
+}
+
+.prac{
+	text-align: center;
+	margin:none;
+	padding-top:70px;
+	padding-bottom: 50px;
+}
+
+.prac ul{
+	font-size: 20px;
+}
+.prac p{
+	font-size: 20px;
+}
+
+.footer{
+
+	
+	background-color:#ff1e1e;
+	text-align: right;
+}
+
+.uni .container{
+	padding-top: 10px;
+    padding-bottom: 10px;
+	
+}
+
+
+#logo{
+	display: none;
+}
+
+
+
+
+
+
+
