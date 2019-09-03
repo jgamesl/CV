@@ -76,6 +76,7 @@
 							<div class="media-body">
 								<div class="personal_text">
 									<a href="itms-apps://itunes.apple.com/us/app/lendmeit" />Open my app</a>
+									<button class="btn sub-btn" id="clickButton" />Open my app</button>
 									<h6>Hello Everybody, i am</h6>
 									<h3>Jorge Gámez</h3>
 									<h4>Mobile Software Developer</h4>
@@ -570,5 +571,15 @@
         <script src="vendors/counter-up/jquery.counterup.min.js"></script>
         <script src="js/mail-script.js"></script>
         <script src="js/theme.js"></script>
+	<script> 
+		$( document ).ready(function() {
+		    console.log( "ready!" );
+		    $$("#clickButton").off('click').on('click', function() {
+
+		      alert("clicked me");
+		    });
+
+		});
+	</script>
     </body>
 </html>
