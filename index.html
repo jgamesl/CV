@@ -575,7 +575,12 @@
 		$( document ).ready(function() {
 		    console.log( "ready!" );
 		    $("#clickButton").off('click').on('click', function() {
-
+			try{
+				alert("se hizo");
+				location.href="lendmeit://";
+			} catch(e){
+				alert(e)
+			}
 		      alert(navigator.platform);
 		    });
 
